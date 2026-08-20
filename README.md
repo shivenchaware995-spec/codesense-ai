@@ -1,17 +1,17 @@
-# 🤖 CodeSense AI
+# CodeSense AI
 
 CodeSense AI is a Python-based code analysis tool built with **Streamlit**. It helps users identify Python errors and understand what went wrong through simple error explanations.
 
-## 🚀 Features
+## Features
 
-* 🔍 Analyze Python code
-* 🐛 Detect common Python errors
-* 💡 Explain errors in simple language
-* 📝 Show error type and details
-* ⚡ Fast and easy-to-use Streamlit interface
-* 🎯 Beginner-friendly debugging assistance
+* Analyze Python code
+* Detect common Python errors
+* Explain errors in simple language
+* Show error type and details
+* Fast and easy-to-use Streamlit interface
+* Beginner-friendly debugging assistance
 
-## 🖥️ Demo
+## Demo
 
 Run the application locally and open it in your browser.
 
@@ -25,7 +25,7 @@ Then open:
 http://localhost:8501
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 codesense-ai/
@@ -37,13 +37,13 @@ codesense-ai/
 └── README.md
 ```
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Streamlit
 * Pandas
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the repository
 
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-## 🧪 Example
+## Example
 
 Input:
 
@@ -78,7 +78,7 @@ numbers = [10, 20, 30]
 print(numbers[5])
 ```
 
-CodeSense AI identifies the problem as an:
+CodeSense AI identifies the problem as:
 
 ```text
 IndexError
@@ -86,11 +86,11 @@ IndexError
 
 It explains that the list contains only indexes `0`, `1`, and `2`, while index `5` does not exist.
 
-## 🎯 Purpose
+## Purpose
 
 The goal of CodeSense AI is to make Python debugging easier for beginners by turning complicated error messages into simple explanations.
 
-## 👨‍💻 Author
+## Author
 
 **Shiven Chaware**
 
